@@ -14,4 +14,8 @@ elif(len(password)>8):
     for char in password:
         if char.isdigit():
             digits += 1
-        
+        elif char.isalpha():
+            if char.isupper():
+                upper += 1
+            elif char.islower():
+                lower +=1
