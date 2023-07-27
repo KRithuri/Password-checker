@@ -24,9 +24,11 @@ elif(len(password)>8):
 
 if(upper <=0):
     print("Invalid password! Must contain uppercase!")
-if(lower <=0):
+elif(lower <=0):
     print("Invalid password! Must contain lowercase!")
-if(characters <=0):
+elif(characters <=0):
     print("Invalid password! Must contain special characters!")
-if(digits <=0):
+elif(digits <=0):
     print("Invalid password! Must contain digits!")
+else:
+    print("Password does not meet requirements!")
