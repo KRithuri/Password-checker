@@ -35,3 +35,5 @@ def password_checker(password):
 def main():
     password = input("Enter password: ")
     password_checker(password)
+
+main()
