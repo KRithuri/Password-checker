@@ -19,3 +19,5 @@ elif(len(password)>8):
                 upper += 1
             elif char.islower():
                 lower +=1
+        elif char in special:
+            characters += 1
