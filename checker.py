@@ -29,7 +29,7 @@ def password_checker(password):
         print("Invalid password! Must contain special characters!")
     elif(digits <=0):
         print("Invalid password! Must contain digits!")
-    elif (len(password) > 8 and upper > 0 and lower > 0 and characters > 0 and digits > 0 and (password.endswith("@gmail.com") or password.endswith("@outlook.com") or password.endswith("yahoo.com"))):
+    elif (len(password) > 8 and upper > 0 and lower > 0 and characters > 0 and digits > 0):
         print("Password meets requirements!")
     else:
         print("Password does not meet requirements!")
