@@ -11,3 +11,7 @@ password = input("Enter password: ")
 if(len(password)<8):
     print("Password should be 8 characters!")
 elif(len(password)>8):
+    for char in password:
+        if char.isdigit():
+            digits += 1
+        
