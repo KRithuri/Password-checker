@@ -28,3 +28,5 @@ if(lower <=0):
     print("Invalid password! Must contain lowercase!")
 if(characters <=0):
     print("Invalid password! Must contain special characters!")
+if(digits <=0):
+    print("Invalid password! Must contain digits!")
