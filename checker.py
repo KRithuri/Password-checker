@@ -7,8 +7,6 @@ def password_checker(password):
     upper = 0
     lower = 0
 
-    password = input("Enter password: ")
-
     if(len(password)<8):
         print("Password should be 8 characters!")
     elif(len(password)>8):
@@ -33,3 +31,7 @@ def password_checker(password):
         print("Invalid password! Must contain digits!")
     else:
         print("Password does not meet requirements!")
+
+def main():
+    password = input("Enter password: ")
+    password_checker(password)
