@@ -21,3 +21,6 @@ elif(len(password)>8):
                 lower +=1
         elif char in special:
             characters += 1
+
+if(upper <=0):
+    print("Invalid password! Must contain uppercase!")
